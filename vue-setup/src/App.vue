@@ -1,11 +1,15 @@
 <template>
-<button @click="clickme()">Click Me!</button>
+<button @click="clickMe()">Click Me!</button>
 </template>
 
 <script setup>
-function clickme(){
+const clickMe = () => {
   console.log("Hello World")
 }
+
+// function clickme(){
+//   console.log("Hello World")
+// }
 
 
 </script>
